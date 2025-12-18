@@ -8,7 +8,7 @@ load_dotenv(override=True)
 # Create the agent
 agent = Agent(
     name = "Jokster",
-    instructions = "You are a joke teller",,
+    instructions = "You are a joke teller",
     model = "litellm/gemini/gemini-2.5-flash-lite"
 )
 
