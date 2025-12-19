@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "asyncio>=4.0.0",
+    "gradio>=6.1.0",
     "openai-agents[litellm]>=0.6.3",
     "python-dotenv>=1.2.1",
+    "sib-api-v3-sdk>=7.6.0",
 ]
 members = ["projects/*"]
